@@ -1,0 +1,126 @@
+:root {
+  --magenta: hsl(300, 43%, 22%);
+  --accent: hsl(333, 80%, 67%);
+  --dark-txt: hsl(303, 10%, 53%);
+  --light-txt: hsl(300, 24%, 96%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+/* Global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Spartan', sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--magenta);
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Utilities */
+.alt-text {
+  color: var(--accent);
+  font-weight: 400;
+}
+
+.large-text {
+  font-size: 3rem;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  text-align: center;
+}
+
+/* About */
+.about-wrapper {
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+.about-wrapper h1 {
+  margin-bottom: 1rem;
+}
+
+.about-wrapper p {
+  color: var(--dark-txt);
+}
+/* Ratings */
+.ratings-wrapper {
+  margin-bottom: 3rem;
+}
+
+.rating-box {
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  background: var(--light-txt);
+  border-radius: 10px;
+}
+
+.star-wrapper {
+  padding-bottom: .4rem;
+}
+
+/* Cards */
+.cards-wrapper {
+ margin-bottom: 7rem;
+}
+
+.card {
+  background: var(--magenta);
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 1.2rem;
+  color: #fefefe;
+}
+
+.card .cust-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.card .cust-content img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.card .cust-content .cust-info h4 {
+  color: #fefefe;
+}
+
+/* Background Images */
+img[alt="top-mbg"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+img[alt="bottom-mbg"] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+img[alt="top-bg"], img[alt="bottom-bg"] {
+  display: none;
+}
