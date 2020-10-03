@@ -118,7 +118,7 @@ img[alt="top-mbg"] {
 img[alt="bottom-mbg"] {
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
 }
 
 img[alt="top-bg"], img[alt="bottom-bg"] {
