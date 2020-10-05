@@ -1,7 +1,7 @@
-# Work in Progress
+# Solution
 
 Solution to [Frontend Mentor](https://www.frontendmentor.io) challenge.
 
 Social Proof Section
 
-Designed flow; mobile first
+Design flow; mobile first
